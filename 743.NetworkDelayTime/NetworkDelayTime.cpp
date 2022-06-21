@@ -67,3 +67,22 @@ int networkDelayTime(vector<vector<int>>& times, int n, int k) {
     }
     return max_time;
 }
+
+/**
+ * NOTE: The Dijkstra Algorithm (heap-optimized)
+ * for node in nodes:
+ *     dist[node] = INFTY
+ *     prev[node] = None
+ * dist[src] = 0
+ * 
+ * H = heapify(nodes)  # using dist-values as keys
+ * while not H.empty():
+ *     u = H.pop()
+ *     for (u, v) in Edges[u]:
+ *         if dist[v] > dist[u] + weight[(u, v)]:
+ *             dist[v] = dist[u] + weight[(u, v)]
+ *             prev[v] = u
+ *             H.push(v)
+ * 
+ * return dist[tgt]
+ */
