@@ -13,6 +13,9 @@
 - [1261. Find Elements in a Contaminated Binary Tree](./1261.ContaminatedBinaryTree/ContaminiatedBinaryTree.cpp)
   - [LeetCode](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)
   - Basic Tree Traversal
+- [462. Minimum Moves to Equal Array Elements II](./462.MinimumMovesToEqualArray/EqualArray.cpp)
+  - [LeetCode](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)
+  - Median, Mafs
 
 ### 2022-06-21 Shortest Paths
 
