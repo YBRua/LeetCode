@@ -4,6 +4,11 @@
 
 ## Updates
 
+### 2022-06-22 Shortest Paths Cont'd
+
+- [1514.Path with Maximum Probability](./1514.PathWithMaxProbability/PathWithMaxProbability.cpp)
+  - Shortest Path (Dijkstra), Maximum Log Likelihood
+
 ### 2022-06-21 Shortest Paths
 
 - [743.NetworkDelayTime](./743.NetworkDelayTime/NetworkDelayTime.cpp)
