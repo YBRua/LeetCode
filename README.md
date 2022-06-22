@@ -4,10 +4,12 @@
 
 ## Updates
 
-### 2022-06-22 Shortest Paths Cont'd
+### 2022-06-22
 
 - [1514.Path with Maximum Probability](./1514.PathWithMaxProbability/PathWithMaxProbability.cpp)
   - Shortest Path (Dijkstra), Maximum Log Likelihood
+- [215.kth Largest Element in an Array](./215.kthLargestElement/kthLargestElement.cpp)
+  - Divide and Conquer, Quick Select
 
 ### 2022-06-21 Shortest Paths
 
