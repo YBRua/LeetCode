@@ -4,6 +4,22 @@
 
 ## Updates
 
+### 2022-06-23
+
+- [322. Coin Change](./322.CoinChange/CoinChange.cpp)
+  - Dynamic Programming
+- [70. Climbing Stairs](./70.ClimbingStairs/ClimbingStairs.cpp)
+  - Dynamic Programming, actually Fibonacci
+- [5. Longest Palindrome Substring](./5.LongestPalindromicString/LongestPalindromicStr.cpp)
+  - [LeetCode](https://leetcode.com/problems/longest-palindromic-substring/)
+  - Dynamic Programming
+- [1621. Number of Sets of k Non-Overlapping Line Segements](./1621.kNonOverlappingLineSegs/kNonOverlappingLineSegs.cpp)
+  - [LeetCode](https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)
+  - Dynamic Programming, Prefix-Sum as Cache
+- [424. Longest Repeating Character Replacement](./424.LongestRepeatingCharacterReplacement/LongestRepeatingChar.cpp)
+  - [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)
+  - Sliding window
+
 ### 2022-06-22
 
 - [1514. Path with Maximum Probability](./1514.PathWithMaxProbability/PathWithMaxProbability.cpp)
