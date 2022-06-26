@@ -4,6 +4,18 @@
 
 ## Updates
 
+### 2022-06-26
+
+- [467. Unique Substring In Wraparound String](467.UniqueSubstringsInWraparoundStr/UniqueSubstring.cpp)
+  - [LeetCode](https://leetcode.com/problems/unique-substrings-in-wraparound-string/)
+  - Dynamic Programming?
+- [1423. Maximum Points From Cards](1423.MaximumPointsFromCards/MaximumPoints.cpp)
+  - [LeetCode](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
+  - Dynamic Programming or Sliding Window
+- [1471. K Strongest Numbers](1471.kStrongestNumbers/kStrongestNumbers.cpp)
+  - [LeetCode](https://leetcode.com/problems/the-k-strongest-values-in-an-array/)
+  - Sort
+
 ### 2022-06-23
 
 - [322. Coin Change](./322.CoinChange/CoinChange.cpp)
