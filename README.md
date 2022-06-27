@@ -4,6 +4,14 @@
 
 ## Updates
 
+### 2022-06-27
+
+- [532. K-Diff Pairs in Array](./532.kDiffPairsInArray/kDiffPairs.cpp)
+  - [LeetCode](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
+- [1648. Sell Diminishing-Valued Colored Balls](./1648.SellDiminishingValuedBalls/DiminishingValuedBalls.cpp)
+  - [LeetCode](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
+  - Greedy. Priority Queue(?)
+
 ### 2022-06-26
 
 - [467. Unique Substring In Wraparound String](467.UniqueSubstringsInWraparoundStr/UniqueSubstring.cpp)
