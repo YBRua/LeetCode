@@ -10,7 +10,7 @@
   - [LeetCode](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
 - [1648. Sell Diminishing-Valued Colored Balls](./1648.SellDiminishingValuedBalls/DiminishingValuedBalls.cpp)
   - [LeetCode](https://leetcode.com/problems/sell-diminishing-valued-colored-balls/)
-  - Greedy. Priority Queue(?)
+  - Greedy. Priority Queue, but TLE
 
 ### 2022-06-26
 
