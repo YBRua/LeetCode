@@ -6,6 +6,13 @@
 
 ### 2022-06-28
 
+- [1975. Maximum Matrix Sum](1975.MaximumMatrixSum/MaximumMatrixSum.cpp)
+  - [LeetCode](https://leetcode.com/problems/maximum-matrix-sum/)
+  - Greedy, Matrix
+- [565. Array Nesting](565.ArrayNesting/ArrayNesting.cpp)
+  - [LeetCode](https://leetcode.com/problems/array-nesting/)
+  - DFS
+
 #### Knapsacks Only
 
 - [Complete Knapsack](./Knapsacks/CompleteKnapsack.cpp)
