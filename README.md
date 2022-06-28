@@ -4,6 +4,14 @@
 
 ## Updates
 
+### 2022-06-28
+
+#### Knapsacks Only
+
+- [Complete Knapsack](./Knapsacks/CompleteKnapsack.cpp)
+- [Multi-Cost 0-1 Knapsack](./Knapsacks/MDKnapsack.cpp)
+- [Grouped Knapsack](./Knapsacks/GroupedKnapsack.cpp)
+
 ### 2022-06-27
 
 - [532. K-Diff Pairs in Array](./532.kDiffPairsInArray/kDiffPairs.cpp)
