@@ -4,6 +4,16 @@
 
 ## Updates
 
+### 2022-06-30
+
+- [1686. Stone GameVI](1686.StoneGameVI/StoneGame.cpp)
+  - [LeetCode](https://leetcode.com/problems/stone-game-vi/)
+  - Greedy
+- [1291. Sequential Digits](1291.SequentialDigits/SequentialDigits.cpp)
+  - [LeetCode](https://leetcode.com/problems/sequential-digits/)
+  - BFS
+- [763. Partition Labels](./763.PartitionLabels/PartitionLabels.cpp)
+
 ### 2022-06-28
 
 - [1975. Maximum Matrix Sum](1975.MaximumMatrixSum/MaximumMatrixSum.cpp)
