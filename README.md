@@ -4,6 +4,20 @@
 
 ## Updates
 
+### 2022-07-01
+
+- [239. Sliding Window Maximum](239.SlidingWindowMaximum/SlidingWindowMax.cpp)
+  - [LeetCode](https://leetcode.com/problems/sliding-window-maximum/)
+  - Monotonic queue
+- [1052. Grumpy Bookstore Owner](./1052.%20GrumpyBookstoreOwner/GrumpyBookstore.cpp)
+  - Greedy
+- [684. Redundant Connection](./684.RedundantConnection/RedundantConnection.cpp)
+  - [LeetCode](https://leetcode.com/problems/redundant-connection/)
+  - Union-Find set
+- [1696. Jump Game VI](./1696.JumpGameVI/JumpGame.cpp)
+  - [LeetCode](https://leetcode.com/problems/jump-game-vi/)
+  - Dynamic Programming, Monotonic Queue
+
 ### 2022-06-30
 
 - [1686. Stone GameVI](1686.StoneGameVI/StoneGame.cpp)
