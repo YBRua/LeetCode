@@ -4,6 +4,15 @@
 
 ## Updates
 
+### 2022-07-02
+
+- [1465. Max Area of Cake](./1465.MaxAreaOfCake/MaxCake.cpp)
+  - [LeetCode](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+  - Differences, Greedy
+- [1838. Frequency of the Most Frequent Element](./1838.FrequencyOfTheMostFrequentElement/Freq.cpp)
+  - [LeetCode](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+  - Sliding Window
+
 ### 2022-07-01
 
 - [239. Sliding Window Maximum](239.SlidingWindowMaximum/SlidingWindowMax.cpp)
