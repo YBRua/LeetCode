@@ -2,6 +2,10 @@
 
 > In C++, Python, C# and perhaps others
 
+## Notes
+
+> [Link](./Notes/README.md)
+
 ## Updates
 
 ### 2022-07-02
