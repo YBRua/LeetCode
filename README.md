@@ -8,6 +8,15 @@
 
 ## Updates
 
+### 2022-07-04
+
+- [77. Combinations](./77.Combinations/Combinations.cpp)
+  - [LeetCode](https://leetcode.com/problems/combinations/)
+  - DFS
+- [74. Search a 2D Matrix](74.Search2DMatrix/Search2D.cpp)
+  - [LeetCode](https://leetcode.com/problems/search-a-2d-matrix/)
+  - Binary Search
+
 ### 2022-07-02
 
 - [1465. Max Area of Cake](./1465.MaxAreaOfCake/MaxCake.cpp)
@@ -19,7 +28,7 @@
 - [853. Car Fleet](./853.CarFleet/CarFleet.cpp)
   - [LeetCode](https://leetcode.com/problems/car-fleet/)
   - Monotonic Stack
-- [1769. Minimum Number of Operations to Move All Balls to Each Box]
+- [1769. Minimum Number of Operations to Move All Balls to Each Box](1769.MoveBallsToOneBox/MoveBalls.cpp)
   - [LeetCode](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
   - Dynamic Programming
 
@@ -104,7 +113,7 @@
   - Shortest Path (Dijkstra), Maximum Log Likelihood
 - [215. kth Largest Element in an Array](./215.kthLargestElement/kthLargestElement.cpp)
   - Divide and Conquer, Quick Select
-- [1261. Find Elements in a Contaminated Binary Tree](./1261.ContaminatedBinaryTree/ContaminiatedBinaryTree.cpp)
+- [1261. Find Elements in a Contaminated Binary Tree](./1261.ContaminatedBinaryTree/ContaminatedBinaryTree.cpp)
   - [LeetCode](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)
   - Basic Tree Traversal
 - [462. Minimum Moves to Equal Array Elements II](./462.MinimumMovesToEqualArray/EqualArray.cpp)

@@ -7,6 +7,7 @@ using namespace std;
 class Solution {
 public:
     int findSubstringInWraproundString(string p) {
+        // res[i]: maximum number of unique substrings ending with i
         vector<int> res(26, 0);
         int max_val = 1;
         for (int i = 0; i < p.size(); ++i) {
