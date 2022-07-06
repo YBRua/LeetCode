@@ -5,7 +5,7 @@
 - [Data Structure](#datastructures)
 - Algorithms
   - [Sliding Window](./AlgorithmTemplates/sliding_window.md)
-  - [Dynamic Programming](#dynamic-programming)
+  - [Dynamic Programming](./DynamicProgramming/dp_examples.md)
   - [Graphs and Trees](#graphs-and-trees)
   - [Greedy](#greedy)
   - [String](#string)
@@ -15,10 +15,6 @@
 ### DataStructures
 
 - [Disjoint Set](./DataStructures/disjoint_sets.md)
-
-### Dynamic Programming
-
-- [Dynamic Programming](./DynamicProgramming/dp_examples.md)
 
 ### Graphs And Trees
 

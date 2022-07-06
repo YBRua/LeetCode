@@ -64,8 +64,15 @@ def _prefix_function(s: str):
     return nexts
 
 
+def _recite_kmp(source: str, pattern: str) -> List:
+    kmp(source, pattern)
+
+
 print(_prefix_function('aaaaaaaa'))
 
-hits = kmp('ababaca', 'aba')
+source = 'aaaaaaa'
+pattern = 'aa'
+
+hits = _recite_kmp(source, pattern)
 for hit in hits:
     print(f'hit at {hit}')

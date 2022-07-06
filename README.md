@@ -8,6 +8,12 @@
 
 ## Updates
 
+### 2022-07-06
+
+- Constructing Binary Trees
+  - [105. Construct Binary Tree from Preorder and Inorder Traversal](./ConstructBinaryTree/105.PreorderAndInorder.cpp)
+  - [106. Construct Binary Tree from Inorder and Postorder Traversal](./ConstructBinaryTree/106.PostorderAndInorder.cpp)
+
 ### 2022-07-05
 
 - [128. Longest Consecutive Sequence](./128.LongestConsecutiveSequence/LongestConsecutiveSeq.cpp)
