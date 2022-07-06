@@ -8,6 +8,18 @@
 
 ## Updates
 
+### 2022-07-05
+
+- [128. Longest Consecutive Sequence](./128.LongestConsecutiveSequence/LongestConsecutiveSeq.cpp)
+  - [LeetCode](https://leetcode.com/problems/longest-consecutive-sequence/)
+  - Hashmap, DFS
+- [1589. Maximum Sum Obtained of Any Permutation](./1589.MaximumSumPermutation/MaximumSumPermutation.cpp)
+  - [LeetCode](https://leetcode.com/problems/maximum-sum-obtained-of-any-permutation/)
+  - Greedy, Prefix Sum
+- [396. Rotate Function](./396.RotateFunction/RotateFunction.cpp)
+  - [LeetCode](https://leetcode.com/problems/rotate-function/)
+  - Just rush
+
 ### 2022-07-04
 
 - [77. Combinations](./77.Combinations/Combinations.cpp)

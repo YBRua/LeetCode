@@ -24,6 +24,8 @@
 
 - [Minimum Spanning Tree](./GraphsAndTrees/minimum_spanning_tree.md)
 - [Shortest Path](./GraphsAndTrees/shortest_paths.md)
+- Maximum Flow
+  - [Edmonds-Karp](./../MaximumFlowPrototype/MaximumFlow.cpp)
 
 ### Greedy
 
