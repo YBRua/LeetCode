@@ -1,3 +1,5 @@
+// Subtract all elements in nums by k
+// and check if the result still exist in the original nums
 #include <vector>
 #include <unordered_set>
 #include <unordered_map>

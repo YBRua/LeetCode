@@ -1,3 +1,7 @@
+// 462. Minimum Moves to Equal Array Elements II
+// <https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/>
+// The idea is that we should move all elements to the median
+
 #include <vector>
 #include <cmath>
 #include <algorithm>

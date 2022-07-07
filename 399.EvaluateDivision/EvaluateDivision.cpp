@@ -1,3 +1,11 @@
+// 399. Evaluate Division
+// <https://leetcode.com/problems/evaluate-division/>
+// We will be using a graph.
+// For each ai, bi, values[i]
+// we add edge (ai, bi, values[i]) and (bi, ai, 1/values[i])
+// Then the result for query [ci, di] would be the product of weights
+// along the path from ci to di (if a path exists)
+
 #include <string>
 #include <unordered_map>
 #include <unordered_set>

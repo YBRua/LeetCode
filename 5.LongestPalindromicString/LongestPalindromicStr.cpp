@@ -10,6 +10,7 @@ public:
         int n = s.size();
 
         // dp[i][j] = 1 if s[i:j+1] is a palindrome else 0
+        // so the result is given by the largest (j - i)
         vector<vector<int>> dp(n, vector<int>(n, 0));
 
         // one element, size == 0

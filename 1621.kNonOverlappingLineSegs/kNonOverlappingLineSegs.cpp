@@ -11,6 +11,9 @@ using namespace std;
  *              + ...
  *              + dp[j][j-1] (i covered by line seg of length j)
  */
+//// NOTE: A naive for-loop to update dp[i][j] would lead to TLE
+//// But since all sums are related to the (j-1)-th column
+//// We can optimize this using a "prefix sum"
 
 class Solution {
    public:

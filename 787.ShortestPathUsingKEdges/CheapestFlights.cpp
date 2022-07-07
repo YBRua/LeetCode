@@ -1,12 +1,14 @@
+// 787. Cheapest Flights Within K Stops
+// <https://leetcode.com/problems/cheapest-flights-within-k-stops/>
+// Solve by dynamic programming
+// let dp[n][k] be the cost to reach node n using at most k edges
+// then dp[v][k] = min(dp[v][k], dp[v][k-1], dp[u][k-1] + cost[u][v])
+// for (u, v) in edges
+
 #include <unordered_map>
 #include <vector>
 
 using namespace std;
-
-/**
- * return the cheapest price from src to dst with at most k stops. If there is
- * no such route, return -1.
- */
 
 int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst,
                       int k) {
