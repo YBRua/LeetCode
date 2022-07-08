@@ -8,12 +8,28 @@
 
 ## Updates
 
+### 2022-07-08
+
+- [力扣15. 三数之和](./CN15.3Sum/3Sum.cpp)
+  - [力扣中文站](https://leetcode.cn/problems/3sum/)
+  - Sort
+- [力扣33. 搜索旋转排序数组](./CN33.SearchInRotatedSortedArray/RotatedArrSearch.cpp)
+  - [力扣中文站](https://leetcode.cn/problems/search-in-rotated-sorted-array/)
+  - Binary Search
+- [力扣4. 寻找两个正序数组的中位数](./CN4.MedianOfTwoSortedArrays/MedianOfTwoSortedArr.cpp)
+  - [力扣中文站](https://leetcode.cn/problems/median-of-two-sorted-arrays/)
+  - Binary Search
+- [力扣124. 二叉树中的最大路径和](./CN124.BinaryTreeMaxSumPath/BinaryTreeMaxSumPath.cpp)
+  - [力扣中文站](https://leetcode.cn/problems/binary-tree-maximum-path-sum/)
+  - Dynamic Programming
+
 ### 2022-07-07
 
 - [力扣206. 反转链表](./CN206.ReverseLinkedList/ReverseLinkedList.cpp)
   - [力扣中文站](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
 - [力扣3. 无重复字符的最长子串](./CN3.LongestSubstrWithoutRepeating/LongestSubstr.cpp)
   - [力扣中文站](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+  - Sliding Window
 - [力扣25. K个一组反转链表](./CN25.ReverseNodesInKGroup/ReverseNodesK.cpp)
   - [力扣中文站](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
 
