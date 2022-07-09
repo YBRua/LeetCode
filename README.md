@@ -80,7 +80,7 @@
 - [239. Sliding Window Maximum](239.SlidingWindowMaximum/SlidingWindowMax.cpp)
   - [LeetCode](https://leetcode.com/problems/sliding-window-maximum/)
   - Monotonic queue
-- [1052. Grumpy Bookstore Owner](./1052.%20GrumpyBookstoreOwner/GrumpyBookstore.cpp)
+- [1052. Grumpy Bookstore Owner](./1052.GrumpyBookstoreOwner/GrumpyBookstore.cpp)
   - Greedy
 - [684. Redundant Connection](./684.RedundantConnection/RedundantConnection.cpp)
   - [LeetCode](https://leetcode.com/problems/redundant-connection/)

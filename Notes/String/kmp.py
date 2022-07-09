@@ -52,26 +52,40 @@ def kmp(string: str, pattern: str):
 
 def _prefix_function(s: str):
     n = len(s)
-    nexts = [0] * n
-
+    res = [0] * n
     for i in range(1, n):
-        j = nexts[i - 1]
+        j = res[i - 1]
         while j > 0 and s[i] != s[j]:
-            j = nexts[j - 1]
+            j = res[j - 1]
         if s[i] == s[j]:
             j += 1
-        nexts[i] = j
-    return nexts
+        res[i] = j
+    return res
 
 
 def _recite_kmp(source: str, pattern: str) -> List:
-    kmp(source, pattern)
+    nexts = _prefix_function(pattern)
+    res = []
+    i, j = 0, 0
+    while i < len(source):
+        if source[i] == pattern[j]:
+            i += 1
+            j += 1
+        if j == len(pattern):
+            res.append(i - j)
+            j = nexts[j - 1]
+        elif i < len(source) and source[i] != pattern[j]:
+            if j > 0:
+                j = nexts[j - 1]
+            else:
+                i += 1
+    return res
 
 
 print(_prefix_function('aaaaaaaa'))
 
-source = 'aaaaaaa'
-pattern = 'aa'
+source = 'abcdabcdabab'
+pattern = 'ab'
 
 hits = _recite_kmp(source, pattern)
 for hit in hits:

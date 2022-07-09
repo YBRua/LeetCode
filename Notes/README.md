@@ -4,7 +4,7 @@
 
 - [Data Structure](#datastructures)
 - Algorithms
-  - [Numeric](#Numeric)
+  - [Numeric](#numeric)
   - [Sliding Window](./AlgorithmTemplates/sliding_window.md)
   - [Dynamic Programming](./DynamicProgramming/dp_examples.md)
   - [Graphs and Trees](#graphs-and-trees)
