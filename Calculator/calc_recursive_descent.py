@@ -85,7 +85,7 @@ class Calculator:
     def _parse_pow(self) -> TreeNode:
         left = self._parse_atom()
 
-        if self._current() == '^':
+        while self._current() == '^':
             self._match('^')
             root = TreeNode(val='^')
             root.right = self._parse_atom()
@@ -98,7 +98,7 @@ class Calculator:
     def _parse_mult(self) -> TreeNode:
         left = self._parse_pow()
 
-        if self._current() == '*' or self._current() == '/':
+        while self._current() == '*' or self._current() == '/':
             multop = self._step()
             root = TreeNode(val=multop)
             root.right = self._parse_pow()
@@ -174,12 +174,12 @@ class Calculator:
     def eval(self, expr: str):
         self._init_buffer(expr)
         self._root = self._parse_expr()
-        # self._debug_level_traverse()
+        self._debug_level_traverse()
         return self._eval(self._root)
 
 
 if __name__ == "__main__":
-    expression = "-2+1"
+    expression = "2*3*4"
     calc = Calculator().eval(expression)
     res = eval(expression.replace('^', '**').replace('/', '//'))
     if calc != res:
