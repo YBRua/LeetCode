@@ -4,10 +4,11 @@ from typing import Optional
 
 # addop -> + | -
 # multop -> * | /
-# atom -> (expr) | nums
-# pow -> atom | atom ^ pow
-# mult -> pow | mult multop pow
-# expr -> mult | expr addop mult | - atom
+# atom -> (expr) | nums | - atom
+# pow -> atom | atom ^ pow | - pow
+# mult -> pow | mult multop pow | - mult
+# expr -> mult | expr addop mult
+
 class TreeNode:
     def __init__(self, left=None, right=None, val: str = None):
         self.left: Optional[TreeNode] = left
@@ -34,12 +35,6 @@ class Calculator:
         if self._buffer[self._cursor] != expected:
             raise ValueError(f"Invalid expression at {self._cursor}")
         self._cursor += 1
-
-    def _peek_next(self):
-        if self._cursor + 1 < self._buffer_len:
-            return ""
-        else:
-            return self._buffer[self._cursor + 1]
 
     def _current(self):
         while (
@@ -69,9 +64,16 @@ class Calculator:
         return ''.join(str_builder)
 
     def _parse_atom(self) -> TreeNode:
+        # atom -> (expr) | nums | - atom
         temp: TreeNode = None
         if self._cursor >= self._buffer_len:
             return None
+
+        if self._current() == '-':
+            _ = self._step()
+            root = TreeNode(val='neg')
+            root.left = self._parse_atom()
+            return root
 
         if self._current() == '(':
             self._match('(')
@@ -83,6 +85,12 @@ class Calculator:
         return temp
 
     def _parse_pow(self) -> TreeNode:
+        if self._current() == '-':
+            _ = self._step()
+            root = TreeNode(val='neg')
+            root.left = self._parse_pow()
+            return root
+        
         left = self._parse_atom()
 
         while self._current() == '^':
@@ -96,6 +104,12 @@ class Calculator:
         return root
 
     def _parse_mult(self) -> TreeNode:
+        if self._current() == '-':
+            _ = self._step()
+            root = TreeNode(val='neg')
+            root.left = self._parse_mult()
+            return root
+
         left = self._parse_pow()
 
         while self._current() == '*' or self._current() == '/':
@@ -109,21 +123,8 @@ class Calculator:
         return root
 
     def _parse_expr(self) -> TreeNode:
-        # expr -> - atom
-        left = None
-        if self._current() == "-":
-            _ = self._step()
-            root = TreeNode(val='neg')
-            root.left = self._parse_atom()
-
-            if self._current() in '+-*/':
-                left = root
-            else:
-                return root
-
         # expr -> mult | expr addop expr
-        if left is None:
-            left = self._parse_mult()
+        left = self._parse_mult()
 
         # left-recursion elimination
         # expr -> mult expr'
@@ -179,7 +180,7 @@ class Calculator:
 
 
 if __name__ == "__main__":
-    expression = "2*3*4"
+    expression = "2---3^4"
     calc = Calculator().eval(expression)
     res = eval(expression.replace('^', '**').replace('/', '//'))
     if calc != res:
