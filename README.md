@@ -1,6 +1,6 @@
 # LeetCode and Other Fish-Touching Programming Exercises
 
-> In C++, Python, ~~C# (No C# until 22-07-10)~~ and perhaps others
+> In C++, Python, C# and perhaps others
 
 ## Notes
 
