@@ -13,6 +13,9 @@
 - [695. Max Area Of Island](./695.MaxAreaOfIsland/MaxAreaOfIsland.cs)
   - [LeetCode](https://leetcode.com/problems/max-area-of-island/)
   - BFS
+- [2196. Create Binary Tree From Descriptions](2196.CreateBinaryTreeFromDescriptions/CreateBinaryTree.cs)
+  - [LeetCode](https://leetcode.com/problems/create-binary-tree-from-descriptions/)
+  - Hashmap
 
 ### 2022-07-08
 
