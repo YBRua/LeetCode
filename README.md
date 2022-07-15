@@ -8,6 +8,12 @@
 
 ## Updates
 
+### 2022-07-15
+
+- [695. Max Area Of Island](./695.MaxAreaOfIsland/MaxAreaOfIsland.cs)
+  - [LeetCode](https://leetcode.com/problems/max-area-of-island/)
+  - BFS
+
 ### 2022-07-08
 
 - [力扣15. 三数之和](./CN15.3Sum/3Sum.cpp)

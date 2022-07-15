@@ -90,7 +90,7 @@ class Calculator:
             root = TreeNode(val='neg')
             root.left = self._parse_pow()
             return root
-        
+
         left = self._parse_atom()
 
         while self._current() == '^':
