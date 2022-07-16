@@ -8,6 +8,12 @@
 
 ## Updates
 
+### 2022-07-16
+
+- [576. Out of Boundary Paths](576.OutofBoundaryPaths/OutOfBoundaryPaths.cs)
+  - [LeetCode](https://leetcode.com/problems/out-of-boundary-paths/)
+  - Dynamic Programming
+
 ### 2022-07-15
 
 - [695. Max Area Of Island](./695.MaxAreaOfIsland/MaxAreaOfIsland.cs)
