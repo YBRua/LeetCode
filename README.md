@@ -8,6 +8,11 @@
 
 ## Updates
 
+### 2022-07-21
+
+- [92. Reverse Linked List II](./92.ReverseLinkedListII/ReverseLinkedList.cs)
+  - [LeetCode](https://leetcode.com/problems/reverse-linked-list-ii/)
+
 ### 2022-07-16
 
 - [576. Out of Boundary Paths](576.OutofBoundaryPaths/OutOfBoundaryPaths.cs)
