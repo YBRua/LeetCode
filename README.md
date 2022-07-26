@@ -12,6 +12,9 @@
 
 - [236. Lowest Common Ancestor of a Binary Tree](./236.LowestCommonAncestorOfBinaryTree/LowestCommonAncestor.cs)
   - [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [1028. Recover a Tree From Preorder Traversal](1028.RecoverTreeFromPreorderTraversal/RecoverTree.cs)
+  - [LeetCode](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
+  - Stack
 
 ### 2022-07-21
 
