@@ -8,6 +8,11 @@
 
 ## Updates
 
+### 2022-07-26
+
+- [236. Lowest Common Ancestor of a Binary Tree](./236.LowestCommonAncestorOfBinaryTree/LowestCommonAncestor.cs)
+  - [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
 ### 2022-07-21
 
 - [92. Reverse Linked List II](./92.ReverseLinkedListII/ReverseLinkedList.cs)
