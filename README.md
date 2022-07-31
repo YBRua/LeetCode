@@ -8,6 +8,17 @@
 
 ## Updates
 
+### 2022-07-31
+
+- [CN283. Move Zeros](CN283.MoveZeros/MoveZeros.cs)
+  - [力扣中文站](https://leetcode.cn/problems/move-zeroes/submissions/)
+  - Double Pointers
+- [CN160. Intersection of Two Linked Lists](./CN160.IntersectionOfLinkedLists/IntersectionOfLinkedLists.cs)
+  - [力扣中文站](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
+  - Double Pointers
+- [CN206. 反转链表，但是 C#](./CN206.ReverseLinkedList/ReverseLinkedList.cs)
+  - [力扣中文站](https://leetcode.cn/problems/reverse-linked-list/)
+
 ### 2022-07-26
 
 - [236. Lowest Common Ancestor of a Binary Tree](./236.LowestCommonAncestorOfBinaryTree/LowestCommonAncestor.cs)
@@ -55,7 +66,7 @@
 
 - [力扣206. 反转链表](./CN206.ReverseLinkedList/ReverseLinkedList.cpp)
   - [力扣中文站](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
-- [力扣3. 无重复字符的最长子串](./CN3.LongestSubstrWithoutRepeating/LongestSubstr.cpp)
+- 力扣3. 无重复字符的最长子串 [C++](./CN3.LongestSubstrWithoutRepeating/LongestSubstr.cpp) [C#](./CN3.LongestSubstrWithoutRepeating/LongestSubstr.cs)
   - [力扣中文站](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
   - Sliding Window
 - [力扣25. K个一组反转链表](./CN25.ReverseNodesInKGroup/ReverseNodesK.cpp)
