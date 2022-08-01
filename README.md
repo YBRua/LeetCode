@@ -8,6 +8,14 @@
 
 ## Updates
 
+### 2022-08-01
+
+- [64. Unique Paths](./62.UniquePaths/UniquePaths.cs)
+  - [LeetCode](https://leetcode.com/problems/unique-paths/)
+  - Dynamic Programming
+- [1104. Path In Zigzag Labelled Binary Tree](./1104.PathInZigzagBinaryTree/1104.PathInZigzagBinaryTree.cs)
+  - [LeetCode](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
+
 ### 2022-07-31
 
 - [CN283. Move Zeros](CN283.MoveZeros/MoveZeros.cs)
