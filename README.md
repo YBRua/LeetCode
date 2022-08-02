@@ -8,6 +8,16 @@
 
 ## Updates
 
+### 2022-08-02
+
+- [378. Kth Smallest Element in a Sorted Matrix](./378.KthSmallestElementInSortedMatrix/kthSmallestInSortedMat.cs)
+  - [LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+  - Max Heap
+  - Binary Search
+- [337. House Robber III](337.HouseRobberIII/HouseRobber.py)
+  - [LeetCode](https://leetcode.com/problems/house-robber-iii/)
+  - Dynamic Programming
+
 ### 2022-08-01
 
 - [64. Unique Paths](./62.UniquePaths/UniquePaths.cs)
