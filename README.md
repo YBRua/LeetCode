@@ -8,6 +8,13 @@
 
 ## Updates
 
+### 2022-08-03
+
+- [450. Delete Node in a BST](450.DeleteNodeInBST/DeleteNodeInBST.cs)
+  - [LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)
+- [1530. Number of Good Leaf Nodes Pairs](./1530.NumberOfGoodLeafNodesPairs/NumberOfGoodLeafNodePairs.cs)
+  - [LeetCode](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
+
 ### 2022-08-02
 
 - [378. Kth Smallest Element in a Sorted Matrix](./378.KthSmallestElementInSortedMatrix/kthSmallestInSortedMat.cs)
@@ -211,7 +218,7 @@
 
 - [1514. Path with Maximum Probability](./1514.PathWithMaxProbability/PathWithMaxProbability.cpp)
   - Shortest Path (Dijkstra), Maximum Log Likelihood
-- [215. kth Largest Element in an Array](./215.kthLargestElement/kthLargestElement.cpp)
+- 215. kth Largest Element in an Array [C++](./215.kthLargestElement/kthLargestElement.cpp) [C#](215.kthLargestElement/kthLargestElement.cs)
   - Divide and Conquer, Quick Select
 - [1261. Find Elements in a Contaminated Binary Tree](./1261.ContaminatedBinaryTree/ContaminatedBinaryTree.cpp)
   - [LeetCode](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)
