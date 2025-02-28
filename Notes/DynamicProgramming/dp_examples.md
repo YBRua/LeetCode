@@ -47,7 +47,7 @@ LCS[i, j] = LCS[i-1, j-1] + 1 if s1[i] == s2[j] else max(LCS[i-1, j], LCS[i, j-1
 
 - Subproblem
   - `E[i, j]`: Edit distance between two prefices `s1[:i+1]` and `s2[:j+1]`
-  - `E[i, j] = max(1 + E[i-1, j], 1 + E[i, j-1], diff(i, j) + E[i-1, j-1])`
+  - `E[i, j] = min(1 + E[i-1, j], 1 + E[i, j-1], diff(i, j) + E[i-1, j-1])`
   - Initialization: `E[i, 0] = i`, `E[0, j] = j`
 - $O(mn)$
 
@@ -71,7 +71,7 @@ def edit_distance(
                 replace = dists[i-1][j-1]
             else:
                 replace = dists[i-1][j-1] + c_rep
-            dists[i][j] = max(
+            dists[i][j] = min(
                 dists[i][j-1] + c_del,
                 dists[i-1][j] + c_ins,
                 replace
