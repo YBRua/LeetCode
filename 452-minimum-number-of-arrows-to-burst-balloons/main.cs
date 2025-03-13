@@ -1,7 +1,5 @@
 //  452-minimum-number-of-arrows-to-burst-balloons
 using System;
-using System.Collections.Generic;
-using System.Linq;
 
 public class Solution_452 {
     public int FindMinArrowShots(int[][] points) {
