@@ -6,6 +6,7 @@ from typing import List
 # that splits the array into three parts (less than, equal to, greater than the pivot)
 # and recursively searches the k-th smallest element in the corresponding part
 # https://github.com/YKitty/Notes
+# Still O(N) on average, but O(N**2) in worst case
 class QuickSelect:
 
     def quickselect(self, arr: List[int], k: int):
