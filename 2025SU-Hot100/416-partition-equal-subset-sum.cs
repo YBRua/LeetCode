@@ -16,26 +16,26 @@ namespace Hot100SU2025 {
             }
 
             int target = tot / 2;
-            List<List<bool>> dp = [.. Enumerable.Repeat(Enumerable.Repeat(false, target + 1).ToList(), nums.Length)];
+            bool[,] dp = new bool[nums.Length, target + 1];
 
             if (nums[0] <= target) {
-                dp[0][nums[0]] = true;
+                dp[0, nums[0]] = true;
             }
             for (int i = 0; i < nums.Length; ++i) {
-                dp[i][0] = true;
+                dp[i, 0] = true;
             }
 
             for (int i = 1; i < nums.Length; ++i) {
                 for (int j = 1; j <= target; ++j) {
                     if (j < nums[i]) {
-                        dp[i][j] = dp[i - 1][j];
+                        dp[i, j] = dp[i - 1, j];
                     } else {
-                        dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i]];
+                        dp[i, j] = dp[i - 1, j] || dp[i - 1, j - nums[i]];
                     }
                 }
             }
 
-            return dp[nums.Length - 1][target];
+            return dp[nums.Length - 1, target];
         }
     }
 }
