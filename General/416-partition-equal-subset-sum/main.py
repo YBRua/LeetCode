@@ -22,6 +22,8 @@ class Solution:
         if nums[0] <= target:
             dp[0][nums[0]] = True
 
+        print(dp)
+
         for i in range(1, n):
             for j in range(target + 1):
                 if j < nums[i]:
@@ -30,3 +32,12 @@ class Solution:
                     dp[i][j] = dp[i - 1][j] or dp[i - 1][j - nums[i]]
 
         return dp[n - 1][target]
+
+
+def main():
+    nums = [1, 2, 5]
+    print(Solution().canPartition(nums))
+
+
+if __name__ == "__main__":
+    main()
